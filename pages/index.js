@@ -15,9 +15,9 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p>
-          <Image src="/galaxy.jpg" width={4060} height={2117} />
-        </p>
+        <div style={{ width: '100%' }}>
+          <Image src="/galaxy.jpg" width={4060} height={2117} layout="responsive" />
+        </div>
 
         <p className={styles.description}>
           Get started by editing{' '}
