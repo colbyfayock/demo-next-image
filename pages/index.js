@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
         </h1>
 
         <p>
-          <img src="/galaxy.jpg" width={4060} height={2117} />
+          <Image src="/galaxy.jpg" width={4060} height={2117} />
         </p>
 
         <p className={styles.description}>
